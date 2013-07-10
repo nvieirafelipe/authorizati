@@ -22,6 +22,9 @@ gem 'ransack',             github: 'ernie/ransack',         branch: 'rails-4'
 gem 'inherited_resources', github: 'josevalim/inherited_resources'
 gem 'formtastic',          github: 'justinfrench/formtastic'
 
+# Cancan
+gem "cancan"
+
 group :doc do
   gem 'sdoc', require: false
 end
